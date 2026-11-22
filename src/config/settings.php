@@ -26,6 +26,28 @@ $config['settings']['discord'] = [
 		'discord_visitor_logger_webhook_url' => [
 			'type'    => 'password',
 			'default' => '',
+			'order'   => PHP_INT_MAX - 3,
+		],
+
+		'discord_visitor_logger_auto_ban' => [
+			'type' => 'dropdown',
+			'default' => 'false',
+			'options' => [
+				'true' => 'lang:yes',
+				'false' => 'lang:no',
+			],
+			'order'   => PHP_INT_MAX - 2,
+		],
+
+		'discord_visitor_logger_fingerprint_threshold' => [
+			'type'    => 'number',
+			'default' => 12,
+			'order'   => PHP_INT_MAX - 1,
+		],
+
+		'discord_visitor_logger_ban_duration' => [
+			'type'    => 'number',
+			'default' => 1,
 			'order'   => PHP_INT_MAX,
 		],
 

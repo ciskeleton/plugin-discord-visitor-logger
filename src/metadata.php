@@ -21,8 +21,8 @@ return [
 	// Info
 	'name' => 'Discord Visitor Logger',
 	'description' => 'Receive Discord notifications when new visitors access your {platform_name} application.',
-	'version' => '0.0.1',
-	'version_id' => 1,
+	'version' => '0.0.2',
+	'version_id' => 2,
 	'repository' => 'https://github.com/ciskeleton/discord-visitor-logger',
 	'settings_uri' => 'settings/discord',
 

@@ -18,5 +18,11 @@
  */
 
 $lang['settings_discord'] = 'Discord postavke';
+$lang['discord_visitor_logger_auto_ban'] = 'Automatski blokiraj sumnjive IP adrese';
+$lang['discord_visitor_logger_auto_ban_tip'] = 'Automatski primeni privremenu blokadu IP adrese kada se otkrije sumnjiv saobraćaj poklapanjem otiska pregledača.';
+$lang['discord_visitor_logger_ban_duration'] = 'Trajanje privremene blokade';
+$lang['discord_visitor_logger_ban_duration_tip'] = 'Broj sati tokom kojih će sumnjiva IP adresa ostati blokirana. Postavite 0 za trajnu blokadu.';
+$lang['discord_visitor_logger_fingerprint_threshold'] = 'Prag IP adresa po otisku';
+$lang['discord_visitor_logger_fingerprint_threshold_tip'] = 'Broj različitih IP adresa koje dele isti otisak pregledača u roku od 10 minuta, nakon čega se saobraćaj smatra sumnjivim.';
 $lang['discord_visitor_logger_webhook_url'] = 'Discord webhook URL';
 $lang['discord_visitor_logger_webhook_url_tip'] = 'Unesite URL Discord webhooka koji isključivo koristi dodatak Discord Dnevnik Posetilaca za slanje obaveštenja o posetiocima. Ovo podešavanje je specifično za ovaj dodatak i ne deli se sa drugim Discord integracijama.';
