@@ -3,6 +3,11 @@
 Discord Visitor Logger is a **[CiSkeleton](https://github.com/ciskeleton)** plugin that sends Discord notifications when a new public IP address visits your application.
 
 <p align="center">
+  <a href="https://github.com/ciskeleton/plugin-discord-visitor-logger/releases"><img src="https://img.shields.io/github/v/release/ciskeleton/plugin-discord-visitor-logger?label=release" alt="Release"></a>
+  <a href="LICENSE.md"><img src="https://img.shields.io/github/license/ciskeleton/plugin-discord-visitor-logger" alt="Licence: MIT"></a>
+</p>
+
+<p align="center">
   <img src="./main/preview.jpg" alt="Discord Visitor Logger" />
 </p>
 
